@@ -16,9 +16,32 @@
 @section('content')
     <div class="jumbotron">
         <div class="container-fluid text-center">
-            <h1>Hi, Alex!</h1>
-            <h2>Your next scheduled roster:</h2>
-            <h2>03 Nov 2016</h2>
+            <h1>Roster</h1>
+            <h2>Sunday (dd/mm/yyyy)</h2>
+
+            <div class="row">
+                <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2"></div>
+
+                <div class="col-xs-4 col-sm-4 col-md-4 col-xl-4">
+                    <h2>Champs, Heroes, 1-2</h2>
+                    <h3>
+                        Alex
+                    </h3>
+                    <h3>
+                        Isaac
+                    </h3>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-xl-4">
+                    <h2>Zone 3-6</h2>
+                    <h3>
+                        Kaylynn
+                    </h3>
+                    <h3>
+                        Zunren
+                    </h3>
+                </div>
+            </div>
+
             <br>
             <br>
             <a href="#" class="btn btn-lg btn-primary">Contact leaders</a>

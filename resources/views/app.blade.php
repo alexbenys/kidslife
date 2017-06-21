@@ -27,18 +27,17 @@
             <a class="navbar-brand" href="#">KidsLife</a>
         </div>
         <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <li class=""><a href="#">Home</a></li>
             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Roster <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                    <li><a href="#">My Roster</a></li>
-                    <li><a href="#">Report Availability</a></li>
+                    <li><a href="#">Roster</a></li>
+                    <li><a href="#">Availability Form</a></li>
                 </ul>
             </li>
             <li><a href="#">Contact Leaders</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Register</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <li><a href="{{ route('login') }}"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
         </ul>
     </div>
 </nav>
